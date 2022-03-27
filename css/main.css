@@ -133,9 +133,10 @@ main {
     background-color: #222;
     height: 250px;
     Width: 100%;
-    border-bottom: 0.5px solid #fff;
+    border-bottom: 1px double #fff;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 2.25em;
+    margin-bottom: 1%;
 }
 main span {
     font-family: 'Lora', sans-serif;
@@ -173,9 +174,11 @@ main span {
 
 /*playing with the padding and borders*/
 
-}
-.div-1, .div-2 {
-    border-right: 1px solid #fff;
+.div-2 {
+    border-left: 0.5px dotted #fff;
+    border-right: 0.5px dotted #fff;
+
+    
 }
 .div-1, .div-2, .div-3 {
     padding: 1%;   
@@ -188,13 +191,14 @@ footer {
   background-color: #222;
   height: 80px;
   Width: 100%;
-  font-family: 'Source Sans Pro,' sans-serif;
+  font-family: 'Gochi Hand', cursive;
   color: #fff;
   font-size: 1.0em;
 }
 
 footer {
-border-top: 0.5px solid #fff;
+border-top: 1px solid #fff;
+margin-top:1%;
 }
 
 /* ==========================================================================
